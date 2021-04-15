@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helevetica, sans-serif;
+  ;
+}
+
+h1 {
+  color: #C2185B;
+}
+
+.contain {
+  margin: 70px auto;
+  overflow: hidden;
+  width: 60%;
+  text-align: center;
+}

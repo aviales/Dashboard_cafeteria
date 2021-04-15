@@ -1,0 +1,19 @@
+<h1>Cafeteria el Portoncito</h1>
+<p>Graficos</p>
+
+<h2>Ventas Mensuales (ultimos 12)</h2>
+<%= column_chart @sales_grouped_by_month  %>
+<h2>Cantidad ventas mensuales</h2>
+<%= column_chart @sales_grouped_by_month_quantity %>
+<h2>Promedio</h2>
+<%= column_chart @avg_sales_by_month %>
+<h2>Origen</h2>
+<%= pie_chart  @sales_grouped_by_origin %>
+<%= pie_chart  @sales_grouped_by_origin6 %>
+<%= pie_chart  @sales_grouped_by_origin3 %>
+<%= pie_chart  @sales_grouped_by_origin1 %>
+<h2>Nombre</h2>
+<%= pie_chart @sales_grouped_by_name %>
+<%= pie_chart @sales_grouped_by_name6 %>
+<%= pie_chart @sales_grouped_by_name3 %>
+<%= pie_chart @sales_grouped_by_name1 %>
